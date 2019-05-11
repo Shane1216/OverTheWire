@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Leviathan</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+        <link rel="stylesheet" type="text/css" href="assets/css/games.css">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="./home.html">OverTheWire</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav">
+            <a class="nav-item nav-link" href="./bandit.html">Bandit</a>
+            <a class="nav-item nav-link" href="./leviathan.html">Leviathan</a>
+            <a class="nav-item nav-link" href="./natas.html">Natas</a>
+            <a class="nav-item nav-link" href="./narnia.html">Narnia</a>
+            <a class="nav-item nav-link" href="./utumno.html">Utumno</a>
+            <a class="nav-item nav-link" href="./maze.html">Maze</a>
+            <a class="nav-item nav-link" href="./forum.html">Forum</a>
+            <a class="nav-item nav-link" href="./wiki.html">Wiki</a>
+          </div>
+        </div>
+      </nav>
+            <div class="sidenav">
+                    <button type="button" id="zero">Level 0</button>
+                        <button type="button" id="one">Level 0 -> Level 1</button>
+                        <button type="button" id="two">Level 1 -> Level 2</button>
+                        <button type="button" id="three">Level 2 -> Level 3</button>
+                        <button type="button" id="four">Level 3 -> Level 4</button>
+                        <button type="button" id="five">Level 4 -> Level 5</button>
+                        <button type="button" id="six">Level 5 -> Level 6</button>
+                        <button type="button" id="seven">Level 6 -> Level 7</button>
+            </div>
+    <div id="container">
+            <h1>Leviathan</h1>
+            <h2>Dare you face the lord of the oceans?</h2>
+            <p>
+                Leviathan is a wargame that has been rescued from the demise of intruded.net, previously hosted on
+                leviathan.intruded.net. <br>
+                Big thanks to adc, morla and reth for their help in resurrecting this game!<br><br>
+        
+                What follows below is the original description of leviathan, copied from intruded.net:<br><br>
+        
+                Summary:<br>
+                Difficulty: 1/10<br>
+                Levels: 8<br>
+                Platform: Linux/x86<br><br>
+        
+                Author:<br>
+                Anders Tonfeldt<br><br>
+        
+                Special Thanks:
+                We would like to thank AstroMonk for coming up with a replacement idea for the last level,<br>
+                deadfood for finding a leveljump and Coi for finding a non-planned vulnerability.<br><br>
+        
+                Description:<br>
+                This wargame doesn't require any knowledge about programming - just a bit of common
+                sense and some knowledge about basic <br>*nix commands. We had no idea that it'd be this
+                hard to make an interesting >wargame that wouldn't require programming abilities from<br>
+                the players. Hopefully we made an interesting challenge for the new ones.
+                Leviathan’s levels are called leviathan0, leviathan1, … >etc. and <br>can be accessed on
+                leviathan.labs.overthewire.org through SSH on port 2223.<br><br>
+        
+                To login to the first level use:<br><br>
+        
+                Username: leviathan0<br>
+                Password: leviathan0<br>
+                Data for the levels can be found in the homedirectories. You can look at /etc/leviathan_pass for the various
+                level passwords.
+            </p>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+</body>
+<script src="./assets/javascript/leviathan.js"></script>
+</html>
