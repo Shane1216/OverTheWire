@@ -1,34 +1,87 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Forum</title>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
-        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-        <link rel="stylesheet" type="text/css" href="assets/css/app.css">
-</head>
-<body>
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-        <a class="navbar-brand" href="./index.html">OverTheWire</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-          <div class="navbar-nav">
-            <a class="nav-item nav-link" href="./bandit.html">Bandit</a>
-            <a class="nav-item nav-link" href="./leviathan.html">Leviathan</a>
-            <a class="nav-item nav-link" href="./natas.html">Natas</a>
-            <a class="nav-item nav-link" href="./narnia.html">Narnia</a>
-            <a class="nav-item nav-link" href="./utumno.html">Utumno</a>
-            <a class="nav-item nav-link" href="./maze.html">Maze</a>
-            <a class="nav-item nav-link" href="./forum.html">Forum</a>
-            <a class="nav-item nav-link" href="./wiki.html">Wiki</a>
-          </div>
-        </div>
-      </nav>
 
-      <h1>Forum</h1>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Forum</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <link rel="stylesheet" type="text/css" href="assets/css/app.css">
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <a class="navbar-brand" href="./index.html">OverTheWire</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
+      aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+      <div class="navbar-nav">
+        <a class="nav-item nav-link" href="./bandit.html">Bandit</a>
+        <a class="nav-item nav-link" href="./leviathan.html">Leviathan</a>
+        <a class="nav-item nav-link" href="./natas.html">Natas</a>
+        <a class="nav-item nav-link" href="./narnia.html">Narnia</a>
+        <a class="nav-item nav-link" href="./utumno.html">Utumno</a>
+        <a class="nav-item nav-link" href="./maze.html">Maze</a>
+        <a class="nav-item nav-link" href="./forum.html">Forum</a>
+        <a class="nav-item nav-link" href="./wiki.html">Wiki</a>
+      </div>
+    </div>
+  </nav>
+  <h1>Forum</h1>
+  <p>Welcome to the OverTheWire forum. Feel free to post any tips, tricks, and/or problems you find with the games.</p>
+  <br>
+  <div class="container">
+
+    <form>
+      <div class="form-group">
+        <label for="exampleInputEmail1">Post Title</label>
+        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
+          placeholder="Post Title">
+      </div>
+      <div class="form-group">
+        <label for="exampleInputPassword1">Post Description</label>
+        <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Post Description">
+      </div>
+      <button type="submit" class="btn btn-primary">Submit</button>
+    </form>
+
+    <br>
+
+    <div class="card">
+      <h5 class="card-header">Bandit10</h5>
+      <div class="card-body">
+        <p class="card-text">Difficulty finding particular string beginning with multiple =.</p>
+        <a href="#" class="card-link">Comment</a>
+        <h6 class="card-subtitle text-muted">User Comments:</h6>
+        <p class="card-text">You try using Google lol?</p>
+        <footer class="blockquote-footer">StackOverflowUser1046325</footer>
+      </div>
+    </div>
+    <br>
+    <div class="card">
+      <h5 class="card-header">Narnia1</h5>
+      <div class="card-body">
+        <p class="card-text">No Idea what I'm doing. Please help!</p>
+        <a href="#" class="card-link">Comment</a>
+        <h6 class="card-subtitle text-muted">User Comments:</h6>
+      </div>
+    </div>
+    <br>
+    <div class="card">
+      <h5 class="card-header">Bandit7</h5>
+      <div class="card-body">
+        <p class="card-text">Find command coming up with nothing. What am I missing?</p>
+        <a href="#" class="card-link">Comment</a>
+        <h6 class="card-subtitle text-muted">User Comments:</h6>
+      </div>
+    </div>
+  </div>
+
+
 </body>
+
 </html>
